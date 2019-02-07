@@ -4,4 +4,10 @@
 
 ### Test
 
-The data attcked by the attack proposed by N.Carlity and D. Wagner in {% reference carlini2017towards %} are available at https://drive.google.com/file/d/1__1XOZN8zDIfm0O4HExavx9eUoPwMKmQ/view?usp=sharing
+The data attcked by the attack proposed by N.Carlity and D. Wagner in [@carlini2017towards] are available at https://drive.google.com/file/d/1__1XOZN8zDIfm0O4HExavx9eUoPwMKmQ/view?usp=sharing
+
+
+References
+----------
+
+{% bibliography %}
