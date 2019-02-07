@@ -9,11 +9,11 @@ import libs.model_multi_channel as mcm
 
 ########################################################################################################################
 parser = argparse.ArgumentParser(description="Train multi-channel system with randomized diversification.")
-parser.add_argument("--type", default="fashion_mnist", help="The dataset type.")
+parser.add_argument("--type", default="mnist", help="The dataset type.")
 parser.add_argument("--data_dir", default="data/attacked", help="The dataset path.")
 parser.add_argument("--model_dir", default="models", help="Path where to save models.")
 parser.add_argument("--is_zero", default=False, type=int, help="Is to use hard thresholding.")
-parser.add_argument("--epoch", default=30, type=int, help="The number of epochs.")
+parser.add_argument("--epoch", default=10, type=int, help="The number of epochs.")
 parser.add_argument("--lr", default=1e-3, type=float, help="Learning rate.")
 parser.add_argument("--batch_size", default=64, type=int, help="Batch size.")
 parser.add_argument("--samples", default=1000, type=int, help="The number of test samples.")
@@ -52,7 +52,6 @@ if __name__ == "__main__":
             model = MNISTModelAllLayers(nn_param, session=sess)
             IMAGE_SIZE = 28
             N_CHANELS = 1
-
         elif args.type == "fashion_mnist":
             nn_param = [32, 32, 64, 64, 200, 200]
             model = MNISTModelAllLayers(nn_param, session=sess)
