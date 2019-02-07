@@ -2,11 +2,11 @@
 
 ## Python implementation of "Defending against adversarial attacks by randomized diversification"
 
-A multi-channel architecture with a randomized diversification is a defense strategy against the adversarial attacks in a gray-box scenario. The gray-box attacks assume that the architecture of the classifier, defense mechanism and the training data set are known to the attacker. The attacker does not only have an access to a secret key and to the internal states of the system at the test time. 
+A  randomized diversification is a defense strategy against the adversarial attacks in a gray-box scenario. The gray-box attacks assume that the architecture of the classifier, the defense mechanism and the training data set are known to the attacker. The attacker does not only have an access to a secret key and to the internal states of the system at the test time. 
 
 ### Train
 
-The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and it suits for any training data.
+The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and suits for any training data.
 
 ### Test
 
