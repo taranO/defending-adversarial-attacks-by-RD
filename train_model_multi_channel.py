@@ -44,7 +44,6 @@ if __name__ == "__main__":
             model = MNISTModelAllLayers(nn_param, session=sess)
             IMAGE_SIZE = 28
             N_CHANELS = 1
-
         elif args.type == "fashion_mnist":
             data = FashionMNIST()
             nn_param = [32, 32, 64, 64, 200, 200]
