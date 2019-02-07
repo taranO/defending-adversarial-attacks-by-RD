@@ -8,6 +8,11 @@ A  randomized diversification is a defense strategy against the adversarial atta
 
 The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and suits for any training data.
 
+#### Reqirements
+-- keras
+-- numpy
+-- scipy.fftpack
+
 ### Test
 
 For the test the adversarial examples were generate by using the attack propodsed by 
