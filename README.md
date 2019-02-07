@@ -6,6 +6,7 @@ A multi-channel architecture with a randomized diversification is a defense stra
 
 ### Train
 
+The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and it suits for any training data.
 
 ### Test
 
