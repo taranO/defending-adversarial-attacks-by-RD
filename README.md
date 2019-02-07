@@ -10,7 +10,7 @@ The multi-channel architecture with a randomized diversification can be trained 
 
 ### Test
 
-For the test the adversarial examples were generate by the attack propodsed by 
+For the test the adversarial examples were generate by using the attack propodsed by 
 > Carlini Nicholas and Wagner David:  
 > [Towards evaluating the robustness of neural networks](https://arxiv.org/pdf/1608.04644.pdf) 
 
