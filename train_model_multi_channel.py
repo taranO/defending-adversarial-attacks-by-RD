@@ -2,6 +2,7 @@
 
 import argparse
 import keras
+import os
 
 from setup_mnist import *
 from setup_cifar import *
