@@ -35,7 +35,7 @@ def prepare_data_for_classification(data, IMAGE_SIZE, N_CHANELS):
 
 if __name__ == "__main__":
 
-    P = [1,2,3,4]  # number of channels per subband
+    P = [1,2,3]  # number of channels per subband
     SUBBANDS = ["d", "h", "v"]  # DCT subbands
     MODEL_DIR = args.model_dir + "/" + args.type
     EPOCHS = [args.epoch for i in range(len(P)*len(SUBBANDS))]
