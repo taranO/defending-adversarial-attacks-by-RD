@@ -1,4 +1,4 @@
-# CVPR ID 5842 
+# CVPR 2019
 
 ## Python implementation of "Defending against adversarial attacks by randomized diversification"
 
