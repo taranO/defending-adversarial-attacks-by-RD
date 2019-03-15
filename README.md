@@ -45,7 +45,18 @@ The attcked data are available at https://cuicloud.unige.ch/index.php/s/QcSPGSLS
   
     $ python test_model_multi_channel.py --type=mnist --attack_type=carlini_l2 --data_dir=data/attacked --epoch=1000
 
-
+## Citation
+O. Taran, S. Rezaeifar, T. Holotyak, and S. Voloshynovskiy, "Defending against adversarial attacks by randomized diversification," in Proc. The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Long Beach, USA, 2019. 
+  
+    $  @inproceedings { Taran2019cvpr,
+    author = { Taran, Olga and Rezaeifar, Shideh and Holotyak, Taras and Voloshynovskiy, Slava },
+    booktitle = { The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) },
+    title = { Defending against adversarial attacks by randomized diversification },
+    address = { Long Beach, USA },
+    month = { June },
+    pages = { },
+    year = { 2019 }
+    }
 
 
 
