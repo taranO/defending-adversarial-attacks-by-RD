@@ -21,7 +21,7 @@ The chain of the first 3 blocks can be organized in a parallel multi-channel str
 
 The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and suits for any training data.
   
-  $ python train_model_multi_channel.py --type=mnist --epochs=1000
+    $ python train_model_multi_channel.py --type=mnist --epochs=1000
 
 ## Reqirements
 * keras
