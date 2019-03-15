@@ -1,5 +1,9 @@
 # Defending against adversarial attacks by randomized diversification
 
+The research was supported by the SNF project No. 200021_182063.
+
+#
+
 PyTorch implementation of ["Defending against adversarial attacks by randomized diversification"](http://sip.unige.ch/projects/snf-it-dis/publications/cvpr-2019) 
 
 A  randomized diversification is a defense strategy against the adversarial attacks in a gray-box scenario. The gray-box attacks assume that the architecture of the classifier, the defense mechanism and the training data set are known to the attacker. The attacker does not only have an access to a secret key and to the internal states of the system at the test time. 
