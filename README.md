@@ -21,7 +21,7 @@ For the test the adversarial examples were generate by using the attack propodse
 
 The python attacks implementation was taken from https://github.com/carlini/nn_robust_attacks
 
-The attcked data are available at https://drive.google.com/file/d/1__1XOZN8zDIfm0O4HExavx9eUoPwMKmQ/view?usp=sharing
+The attcked data are available at https://cuicloud.unige.ch/index.php/s/QcSPGSLSRCzc2gm
 
 
 
