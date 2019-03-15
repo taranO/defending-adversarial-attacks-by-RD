@@ -17,16 +17,16 @@ The chain of the first 3 blocks can be organized in a parallel multi-channel str
 <img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="350px" align="center">
 </p>
 
+## Reqirements
+* keras
+* numpy
+* scipy.fftpack
+
 ## Train
 
 The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and suits for any training data.
   
     $ python train_model_multi_channel.py --type=mnist --epochs=1000
-
-## Reqirements
-* keras
-* numpy
-* scipy.fftpack
 
 ## Test
 
@@ -37,6 +37,8 @@ For the test the adversarial examples were generate by using the attack propodse
 The python attacks implementation was taken from https://github.com/carlini/nn_robust_attacks
 
 The attcked data are available at https://cuicloud.unige.ch/index.php/s/QcSPGSLSRCzc2gm
+  
+    $ python test_model_multi_channel.py --type=mnist --attack_type=carlini_l2 --data_dir=data/attacked --epoch=1000
 
 
 
