@@ -1,7 +1,6 @@
 # Defending against adversarial attacks by randomized diversification
 
 The research was supported by the SNF project No. 200021_182063.
-
 #
 
 PyTorch implementation of ["Defending against adversarial attacks by randomized diversification"](http://sip.unige.ch/projects/snf-it-dis/publications/cvpr-2019) 
