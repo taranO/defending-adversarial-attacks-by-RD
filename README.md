@@ -13,7 +13,9 @@ A multi-channel classifier forms the core of the proposed architecture and consi
 
 The chain of the first 3 blocks can be organized in a parallel multi-channel structure that is followed by one or several aggregation blocks. The final decision about the class is made based on the aggregated result. The rejection option can be also naturally envisioned.
 
+<p align="center">
 <img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="350px" align="center">
+</p>
 
 ### Train
 
