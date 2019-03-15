@@ -48,7 +48,7 @@ The attcked data are available at https://cuicloud.unige.ch/index.php/s/QcSPGSLS
 ## Citation
 O. Taran, S. Rezaeifar, T. Holotyak, and S. Voloshynovskiy, "Defending against adversarial attacks by randomized diversification," in Proc. The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Long Beach, USA, 2019. 
   
-    $  @inproceedings { Taran2019cvpr,
+    @inproceedings { Taran2019cvpr,
     author = { Taran, Olga and Rezaeifar, Shideh and Holotyak, Taras and Voloshynovskiy, Slava },
     booktitle = { The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) },
     title = { Defending against adversarial attacks by randomized diversification },
