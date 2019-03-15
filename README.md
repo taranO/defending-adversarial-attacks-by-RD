@@ -4,6 +4,12 @@ PyTorch implementation of ["Defending against adversarial attacks by randomized 
 
 A  randomized diversification is a defense strategy against the adversarial attacks in a gray-box scenario. The gray-box attacks assume that the architecture of the classifier, the defense mechanism and the training data set are known to the attacker. The attacker does not only have an access to a secret key and to the internal states of the system at the test time. 
 
+<p align="center">
+<img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="350px" align="center">
+<br/>
+Generalized diagram of the proposed multi-channel classifier.  
+</p>
+
 A multi-channel classifier forms the core of the proposed architecture and consists of four main building blocks:
 
 * Pre-processing of the input data in a transform domain via a mapping <img vertical-align="middle;" src="http://sip.unige.ch/files/1415/5264/6029/2019_cvpr_001.png" alt="2019_cvpr_001.png" height="25">
@@ -13,9 +19,7 @@ A multi-channel classifier forms the core of the proposed architecture and consi
 
 The chain of the first 3 blocks can be organized in a parallel multi-channel structure that is followed by one or several aggregation blocks. The final decision about the class is made based on the aggregated result. The rejection option can be also naturally envisioned.
 
-<p align="center">
-<img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="350px" align="center">
-</p>
+
 
 ## Reqirements
 * keras
