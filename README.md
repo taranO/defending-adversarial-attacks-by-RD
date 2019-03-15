@@ -4,6 +4,17 @@ Python implementation of ["Defending against adversarial attacks by randomized d
 
 A  randomized diversification is a defense strategy against the adversarial attacks in a gray-box scenario. The gray-box attacks assume that the architecture of the classifier, the defense mechanism and the training data set are known to the attacker. The attacker does not only have an access to a secret key and to the internal states of the system at the test time. 
 
+A multi-channel classifier forms the core of the proposed architecture and consists of four main building blocks:
+
+> Pre-processing of the input data in a transform domain via a mapping 2019_cvpr_001.png
+> Data independent processing 2019_cvpr_002.png serves as a defense against gradient back propagation to the direct domain.
+> Classification block can be represented by any family of classifiers.
+> Aggregation block can be represented by any operation ranging from a simple summation to learnable operators adapted to the data or to a particular adversarial attack.
+
+The chain of the first 3 blocks can be organized in a parallel multi-channel structure that is followed by one or several aggregation blocks. The final decision about the class is made based on the aggregated result. The rejection option can be also naturally envisioned.
+
+[<img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png">]
+
 ### Train
 
 The multi-channel architecture with a randomized diversification can be trained for any type of deep classifiers and suits for any training data.
