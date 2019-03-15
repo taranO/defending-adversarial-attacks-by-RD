@@ -6,14 +6,14 @@ A  randomized diversification is a defense strategy against the adversarial atta
 
 A multi-channel classifier forms the core of the proposed architecture and consists of four main building blocks:
 
-* Pre-processing of the input data in a transform domain via a mapping <img style="vertical-align: middle;" src="http://sip.unige.ch/files/1415/5264/6029/2019_cvpr_001.png" alt="2019_cvpr_001.png" height="20">
-* Data independent processing 2019_cvpr_002.png serves as a defense against gradient back propagation to the direct domain.
+* Pre-processing of the input data in a transform domain via a mapping <img style="vertical-align: middle;" src="http://sip.unige.ch/files/1415/5264/6029/2019_cvpr_001.png" alt="2019_cvpr_001.png" height="30">
+* Data independent processing <img style="vertical-align: middle;" src="http://sip.unige.ch/files/2315/5264/6226/2019_cvpr_002.png" alt="2019_cvpr_002.png" height="20"> serves as a defense against gradient back propagation to the direct domain.
 * Classification block can be represented by any family of classifiers.
 * Aggregation block can be represented by any operation ranging from a simple summation to learnable operators adapted to the data or to a particular adversarial attack.
 
 The chain of the first 3 blocks can be organized in a parallel multi-channel structure that is followed by one or several aggregation blocks. The final decision about the class is made based on the aggregated result. The rejection option can be also naturally envisioned.
 
-<img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" heigh="150">
+<img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="150">
 
 ### Train
 
