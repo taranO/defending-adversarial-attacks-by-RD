@@ -7,7 +7,8 @@ A  randomized diversification is a defense strategy against the adversarial atta
 <p align="center">
 <img src="http://sip.unige.ch/files/3615/5264/5259/2019_CVPR_main_schema.png" height="350px" align="center">
 <br/>
-Generalized diagram of the proposed multi-channel classifier.  
+<br/>
+Fig.1: Generalized diagram of the proposed multi-channel classifier.  
 </p>
 
 A multi-channel classifier forms the core of the proposed architecture and consists of four main building blocks:
